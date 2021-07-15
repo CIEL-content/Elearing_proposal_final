@@ -269,7 +269,7 @@ a.f-ref{
 	border-top: 1px solid #e3e3e3;
 	float: left;
 	padding: 20px;
-	overflow: hidden;
+	overflow: auto;
 	position: relative;
 	background: #efefef;
 	cursor: -moz-zoom-in; 
@@ -650,12 +650,12 @@ a.f-ref{
 	margin-right: -40px;
 }
 .img-cont-0{
-	height: 69%;
+	height: 67%;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
-	margin-top: 45px;
+	margin-top: 30px;
 }
 .img-cont-1{
 	height: 60%;
