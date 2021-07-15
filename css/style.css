@@ -362,7 +362,7 @@ a.f-ref{
 	border-bottom: 1px solid #e3e3e3;
 	float: left;
 	padding: 20px;
-	overflow: hidden;
+	overflow: auto;
 	position: relative;
 	background:#efefef;
 	cursor: default;
@@ -452,7 +452,7 @@ a.f-ref{
 	border-bottom: 1px solid #e3e3e3;
 	float: left;
 	padding: 20px;
-	overflow: hidden;
+	overflow: auto;
 	position: relative;
 	background: #efefef;
 	cursor: default;
@@ -540,7 +540,7 @@ a.f-ref{
 	border-top: 1px solid #e3e3e3;
 	float: left;
 	padding: 20px;
-	overflow: hidden;
+	overflow: auto;
 	position: relative;
 	background: #efefef;
 	cursor: -moz-zoom-in; 
