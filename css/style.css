@@ -527,11 +527,11 @@ a.f-ref{
 }
 .box11 p span b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 15px;
 }
 .box11 p b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 
@@ -702,7 +702,7 @@ a.f-ref{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
-	margin: 38px 15px;
+	margin: 32px 15px;
 }
 .img-cont-7{
 	height: 77%;
@@ -730,12 +730,12 @@ a.f-ref{
 	margin-top: 10px;
 }
 .img-cont-11{
-	height: 79%;
-	width: 58%;
+	height: 64%;
+	width: 66%;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
-	margin-left: 16%;
+	margin-left: 10%;
 }
 
 .img-1{
@@ -785,7 +785,7 @@ a.f-ref{
     margin-top: 11px;
 }
 .img-13{
-	background-image: url(../images/table.png);
+	background-image: url(../images/table.jpg);
 }
 
 .sme-cont{
