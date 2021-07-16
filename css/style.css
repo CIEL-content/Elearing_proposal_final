@@ -252,17 +252,18 @@ a.f-ref{
 	text-align: right;
 	overflow: hidden;
 	height: 75px;
-	font-size: 20px;
+	font-size: 21px;
 	line-height: 60px;
 	padding: 0px 15px;
-	color:black;
-	font-family: Montserrat Black;
+	color: #fe9700;
+	font-family: Montserrat;
+	font-weight:600;
 }
 .f-title a:first-child{
 	text-align: left;
 }
 .f-title a:hover{
-	color: #dc6c6c;
+	color:#f05922;
 }
 
 .box{
@@ -280,8 +281,8 @@ a.f-ref{
 .box h2{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
-	font-family: Montserrat Black;
+	font-size: 22px;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box h2 span{
@@ -291,15 +292,15 @@ a.f-ref{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #74726f;
-	font-family: Montserrat Black;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 
 .box h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
-	font-family: Montserrat Black;
+	font-size: 22px;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box h3 span{
@@ -309,7 +310,7 @@ a.f-ref{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #74726f;
-	font-family: Montserrat Black;
+	font-family: Montserrat;
 }
 .box:after{
 	position: relative; /*change to absolute if you want to hide the end of the div tag*/
@@ -385,7 +386,7 @@ a.f-ref{
 .box1 h2{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: Montserrat ;
 	color:#3d3d3d;
 	
@@ -393,7 +394,7 @@ a.f-ref{
 .box1 h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: Montserrat;
 	color:#3d3d3d;
 }
@@ -465,17 +466,17 @@ a.f-ref{
 }
 .box11 h2{	
 	margin-bottom: 25px;
-	font-size: 20px;
+	font-size: 22px;
 	padding: 10px 0px;
 	margin: 0;
-	font-family: Montserrat Black;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box11 h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
-	font-family: Montserrat Black;
+	font-size: 22px;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box11 h3 span{
@@ -485,7 +486,7 @@ a.f-ref{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #74726f;
-	font-family: Montserrat Black;
+	font-family: Montserrat;
 }
 .box11:after{
 	position: relative;
@@ -557,8 +558,8 @@ a.f-ref{
 .box2 h2{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
-	font-family: Montserrat Black;
+	font-size: 22px;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box2 h2 span{
@@ -568,14 +569,14 @@ a.f-ref{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #74726f;
-	font-family: Montserrat Black;
+	font-family: Montserrat;
 }
 
 .box2 h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
-	font-family: Montserrat Black;
+	font-size: 22px;
+	font-family: Montserrat;
 	color:#3d3d3d;
 }
 .box2 h3 span{
@@ -661,7 +662,7 @@ a.f-ref{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
-	margin-top: 30px;
+	margin-top: 27px;
 }
 .img-cont-1{
 	height: 60%;
@@ -809,6 +810,7 @@ a.f-ref{
 }
 .sme-3{
 	background-image: url(../images/anju.png);
+	margin-top:19px
 }
 .sme-4{
 	background-image: url(../images/labdhi.png);
@@ -1113,7 +1115,7 @@ table td img{
 	text-indent:-9999px;
 }
 
-.section1 .overlay{width:40px;height:40px;background:rgba(209,980,33,0.8); text-
+.section1 .overlay{width:40px;height:40px;background:rgba(209,980,33,0.8);
 
 align:center;position:absolute;right:0px;top:0px;transition:0.5s ease;}
 .section1 .icon-2x{position:absolute;top:0px;right:5px;transition:0.5s ease;}
