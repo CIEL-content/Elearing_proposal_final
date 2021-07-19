@@ -84,12 +84,14 @@
 	height: 100%;
 	content: '';
 	background: -webkit-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.01) 16%,rgba(0,0,0,0) 17%,rgba(0,0,0,0) 44%,rgba(0,0,0,0.08) 60%,rgba(0,0,0,0.09) 61%,rgba(0,0,0,0.35) 100%);
-	opacity: 0.2;
+	/*	background:#298adb78;*/
+	opacity: 1;
 }
 .page.cover-back .back .content:after{
 	left: auto;
 	right: 0px;
 	background:-webkit-linear-gradient(left, rgba(0,0,0,0.53) 0%,rgba(0,0,0,0.1) 10%,rgba(0,0,0,1) 100%);
+	/*background:#298adb78;*/
 }
 .page.cover .front .content .inner{
 	padding-top: 20px;
@@ -155,14 +157,13 @@ a.f-ref{
 	color: #000;
 }
 .f-cover-flip{
-	background: #000;
-	color: #ddd;
+	color: #131111;
 	position: absolute;
 	right: 0px;
 	padding: 5px 30px 5px 20px;
-	font-size: 20px;
+	font-size: 23px;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 700;
 	top: 50%;
 	margin-top: -25px;
 	cursor: default;
@@ -252,12 +253,13 @@ a.f-ref{
 	text-align: right;
 	overflow: hidden;
 	height: 75px;
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 60px;
 	padding: 0px 15px;
 	color: #fe9700;
 	font-family: Montserrat;
 	font-weight:600;
+	margin-top:5px;
 }
 .f-title a:first-child{
 	text-align: left;
@@ -426,7 +428,7 @@ a.f-ref{
 	padding: 0;
 	text-align: left;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -436,7 +438,7 @@ a.f-ref{
 	padding: 0;
 	text-align: left;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -444,11 +446,11 @@ a.f-ref{
 }
 .box1 p span b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 14px;
 }
 .box1 p b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 
@@ -507,7 +509,7 @@ a.f-ref{
 	margin-top: 10px;
 	text-align: left;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -517,11 +519,11 @@ a.f-ref{
 	margin-top: 5px;
 	text-align: left;
 	font-family: Montserrat;
-	font-size: 14px;
-	line-height: 20px;
-	display: block;
+	font-size: 13px;
+	line-height: 19px;
+	display: table;
 	position: relative;
-	margin-bottom: 26px;
+	margin-bottom: 40px;
 }
 .box11 p span{
 	padding: 0;
@@ -535,12 +537,104 @@ a.f-ref{
 }
 .box11 p span b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 14px;
 }
 .box11 p b{
 	color:#0059b3;
-	font-size: 16px;
+	font-size: 14px;
 }
+
+
+.box22{
+	/*old color #f2f2f2;
+	border-top: 1px solid #e3e3e3;*/
+	border-bottom: 1px solid #e3e3e3;
+	float: left;
+	padding: 20px;
+	overflow: auto;
+	position: relative;
+	background: #efefef;
+	cursor: default;
+}
+.box22 h2{	
+	margin-bottom: 25px;
+	font-size: 22px;
+	padding: 10px 0px;
+	margin: 0;
+	font-family: Montserrat;
+	color:#3d3d3d;
+}
+.box22 h3{
+	padding: 10px 0px;
+	margin: 0;
+	font-size: 22px;
+	font-family: Montserrat;
+	color:#3d3d3d;
+}
+.box22 h3 span{
+	display: block;
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #74726f;
+	font-family: Montserrat;
+}
+.box22:after{
+	position: relative;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.73) 22%, rgba(255,255,255,0.73) 23%, rgba(255,255,255,1) 91%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(22%,rgba(255,255,255,0.73)), color-stop(23%,rgba(255,255,255,0.73)), color-stop(91%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.73) 22%,rgba(255,255,255,0.73) 23%,rgba(255,255,255,1) 91%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.73) 22%,rgba(255,255,255,0.73) 23%,rgba(255,255,255,1) 91%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.73) 22%,rgba(255,255,255,0.73) 23%,rgba(255,255,255,1) 91%);
+	background: linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.73) 22%,rgba(255,255,255,0.73) 23%,rgba(255,255,255,1) 91%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+	height: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	content: '';
+}
+.box22 div p{
+	margin-top: 10px;
+	text-align: left;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	position: relative;
+	margin-bottom: 40px;
+}
+.box22 p{
+	margin-top: 5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	position: relative;
+	margin-bottom: 26px;
+}
+.box22 p span{
+	padding: 0;
+	text-align: left;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	position: relative;
+	padding-bottom: 30px;
+}
+.box22 p span b{
+	color:#0059b3;
+	font-size: 15px;
+}
+
+.box22 p b{
+	color:#0059b3;
+	font-size: 15px;
+}
+
 
 
 .box2{
@@ -704,8 +798,8 @@ a.f-ref{
 	margin-right: 20px;
 }
 .img-cont-6{
-	height: 78%;
-	width: 96%;
+	height: 74%;
+	width: 93%;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -736,8 +830,8 @@ a.f-ref{
 	margin-top: 10px;
 }
 .img-cont-11{
-	height: 62%;
-	width: 66%;
+	height: 64%;
+	width: 69%;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -794,8 +888,8 @@ a.f-ref{
 }
 
 .sme-cont{
-	height: 20%;
-	width: 20%;
+	height: 92px;
+	width: 104px;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -814,6 +908,9 @@ a.f-ref{
 }
 .sme-4{
 	background-image: url(../images/labdhi.png);
+	height: 90px;
+    width: 100px;
+    margin-top: 10px;
 }
 .sme-5{
 	background-image: url(../images/bincy.png);
@@ -826,8 +923,8 @@ a.f-ref{
 }
 
 .icon-cont{
-	height: 8%;
-	width: 65px;
+	height: 44px;
+	width: 61px;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -836,7 +933,7 @@ a.f-ref{
 
 .icon-1{
 	background-image: url(../images/i1.png);
-	margin-top: 28px;
+	margin-top: 20px;
 }
 .icon-2{
 	background-image: url(../images/i2.png);
@@ -848,11 +945,11 @@ a.f-ref{
 }
 .icon-4{
 	background-image: url(../images/i4.png);
-	margin-top: 27px;
+	margin-top: 19px;
 }
 .icon-5{
 	background-image: url(../images/i5.png);
-	margin-top: 20px;
+	margin-top: 10px;
 	height: 80px;
 	width:67px;
 }
@@ -1050,26 +1147,6 @@ hr{
 	background: linear-gradient(to right,  #f88716 50%,#0059b3 50%);
 }
 
-table{
-    font-size: 20px;
-	font-family: Montserrat;
-}
-table, th, td {
-	width: 130px;
-	margin: auto;		
-    border: 1px solid #a9a9a9;
-    border-collapse: collapse;
-}
-
-table td {
-	vertical-align:top
-}
-
-
-table td img{
-	width: 50%;
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -1089,7 +1166,7 @@ table td img{
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
-  
+}
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: 
   opacity: 0;
   transition: opacity 1s;
@@ -1115,11 +1192,69 @@ table td img{
 	text-indent:-9999px;
 }
 
-.section1 .overlay{width:40px;height:40px;background:rgba(209,980,33,0.8);
-
-align:center;position:absolute;right:0px;top:0px;transition:0.5s ease;}
+.section1 .overlay{width:40px;height:40px;background:rgba(209,980,33,0.8); position:absolute;right:0px;top:0px;transition:0.5s ease;}
 .section1 .icon-2x{position:absolute;top:0px;right:5px;transition:0.5s ease;}
 .section1 h1{position:absolute;top:25%;left:-100%;}
 .section1:hover .overlay{width:100%;height:100%;transition:0.5s ease;}
 .section1:hover .overlay .icon-2x{top:45%;right:45%;}
 .section1:hover h1{left:0%;transition:0.5s ease;}
+
+.table td tr{
+	white-space: nowrap;
+}
+
+.img-hover-zoom {
+  height: 100px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+
+}
+
+/* Blur-zoom Container */
+.img-hover-zoom--blur img {
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(2px);
+  /*transform: scale(1.2);*/
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1);
+    content:'CLick on the image to zoom';
+}
+
+.image-over {
+	font-size:10px;
+	font-family: Montserrat;
+	color:grey:
+}	
+
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
