@@ -16,8 +16,6 @@ body{
 	font-smoothing: antialiased;
 	margin: 0;
 	overflow: hidden;
-	min-width:600px;
-	max-width:2000px;
 }
 a{
 	color: #555;
