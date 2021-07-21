@@ -46,7 +46,7 @@ a {
   height: 12em;
   width: 18em;
   font-size: 14px;
-  color: black;
+  color: #f05922;
   border-radius: 2em;
   padding: 1em;
   margin: 10px;
@@ -94,7 +94,7 @@ a {
 }
 
 .card .tags .tag {
-  font-size: 0.75em;
+  font-size:18px;
   background: rgba(255,255,255,0.5);
   border-radius: 0.3rem;
   padding: 0 0.5em;
@@ -145,7 +145,7 @@ a {
 }
 */
 .card-grid-space .num {
-  font-size: 1em;
+  font-size: 18px;
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
